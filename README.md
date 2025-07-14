@@ -3,6 +3,8 @@ Simple Python Script to run NMAP with Prompts
 
 Download python script to your Linux Distro. 
 
+- git clone https://github.com/L0wEndS3c/nmappython
+
 make sure you chmod +x nmapscript.py
 
 Run script ./nmapscript.py
