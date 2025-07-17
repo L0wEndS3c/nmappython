@@ -10,7 +10,7 @@ from pyfiglet import Figlet
 
 def print_banner():
     f = Figlet(font='slant')  # Try also 'big', 'standard', 'doom', etc.
-    print(f.renderText("NMAP by L0wEndS3c"))
+    print(f.renderText("NMAP Script by L0wEndS3c"))
 
 def main():
     try:
