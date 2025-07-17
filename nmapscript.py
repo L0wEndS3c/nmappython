@@ -3,15 +3,20 @@
 #NMAP python script prompting for Scan Type, Target, Scripts, and Port
 #06/25/2025
 
-
 import subprocess
 import sys
 import shlex
+from pyfiglet import Figlet
+
+def print_banner():
+    f = Figlet(font='slant')  # Try also 'big', 'standard', 'doom', etc.
+    print(f.renderText("NMAP by L0wEndS3c"))
 
 def main():
     try:
-        print("=== Nmap Scan Launcher ===")
-        print("\nAvailable scan flags (combine multiple, space-separated):")
+        print_banner()
+
+        print("Available scan flags (combine multiple, space-separated):")
         print("  -sS  (TCP SYN scan)")
         print("  -sT  (TCP connect scan)")
         print("  -sU  (UDP scan)")
@@ -68,4 +73,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
