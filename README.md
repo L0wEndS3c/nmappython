@@ -1,5 +1,5 @@
 # nmappython
-Simple Python Script to run NMAP with Prompts
+Python-based Nmap automation wrapper designed to streamline reconnaissance workflows and reduce manual enumeration time during network assessments.
 
 Download python script to your Linux Distro. 
 
